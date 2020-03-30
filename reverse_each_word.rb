@@ -1,4 +1,4 @@
-string = "Hello there, and how are you?" 
+phrase = "Hello there, and how are you?" 
 
 def reverse_each_word(String)
   str= string.split (" ")
@@ -7,3 +7,6 @@ def reverse_each_word(String)
   reverse.join
 end
 
+def reverse_each_word(phrase)
+  sentence.split.collect {|word| word.reverse}.join(" ")
+end
